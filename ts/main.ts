@@ -1,9 +1,9 @@
 /*
  * Created by Trevor Sears <trevor@trevorsears.com> (https://trevorsears.com/).
  * 10:53 PM -- June 11th, 2019.
- * Project: <name>
+ * Project: @athenafrc/athenad
  * 
- * <name> - <desc>
+ * @athenafrc/athenad - The backend daemon/server for the Athena platform.
  * Copyright (C) 2021 Trevor Sears
  * 
  * This program is free software: you can redistribute it and/or modify
@@ -24,8 +24,8 @@
  * NPM main class used for exporting this package's contents.
  *
  * @author Trevor Sears <trevor@trevorsears.com> (https://trevorsears.com/)
- * @version v<version>
- * @since v<version>
+ * @version v0.1.0
+ * @since v0.1.0
  */
 
 // export { ClassName } from "./class-location";

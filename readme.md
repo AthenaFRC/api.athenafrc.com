@@ -1,10 +1,11 @@
-# JavaScript Module Template
-This repository serves as an easy-start template for TypeScript NPM packages. 
+# `athenad`
 
-Simply clone the repository into a directory:
+The backend daemon/server for the Athena platform.
 
-```bash
-$ git clone git@github.com:T99/js-module-template.git my-new-project
-```
+### [Find @athenafrc/athenad on NPM.](https://www.npmjs.com/package/@athenafrc/athenad)
 
-And that's it! Your project is ready to go.
+## License
+
+@athenafrc/athenad is made available under the GNU General Public License v3.
+
+Copyright (C) 2021 Trevor Sears

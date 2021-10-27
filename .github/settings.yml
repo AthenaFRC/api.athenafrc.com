@@ -1,17 +1,17 @@
 repository:
   
   # The name of the repository. Changing this will rename the repository
-  # name: iterator
+  name: athenad
   
   # A short description of the repository that will show up on GitHub
-  # description: A collection of classes that allow iteration over a predefined collection of elements.
+  description: The backend daemon/server for the Athena platform.
   
   # A URL with more information about the repository
-  # homepage: https://jsdsl.github.io/iterator/
+  # homepage: https://AthenaFRC.github.io/athenad/
   
   # A comma-separated list of topics to set on the repository
-  # topics: >-
-  # comma, separated, list, of, tags
+  topics: >-
+  data-management, frc, scouting, api, backend"
   
   # Either `true` to make the repository private, or `false` to make it public.
   private: false

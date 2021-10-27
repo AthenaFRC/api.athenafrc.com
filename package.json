@@ -1,7 +1,7 @@
 {
-	"name": "<name>",
-	"version": "<version>",
-	"description": "<desc>",
+	"name": "@athenafrc/athenad",
+	"version": "0.1.0",
+	"description": "The backend daemon/server for the Athena platform.",
 	"main": "js/main",
 	"types": ".d.ts/main",
 	"scripts": {
@@ -10,15 +10,21 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/<github_org>/<base_name>.git"
+		"url": "git+https://github.com/AthenaFRC/athenad.git"
 	},
-	"keywords": [],
+	"keywords": [
+		"data-management",
+		"frc",
+		"scouting",
+		"api",
+		"backend"
+	],
 	"author": "Trevor Sears <trevor@trevorsears.com> (https://trevorsears.com/)",
 	"license": "GPL-3.0-or-later",
 	"bugs": {
-		"url": "https://github.com/<github_org>/<base_name>/issues"
+		"url": "https://github.com/AthenaFRC/athenad/issues"
 	},
-	"homepage": "https://github.com/<github_org>/<base_name>#readme",
+	"homepage": "https://github.com/AthenaFRC/athenad#readme",
 	"devDependencies": {
 		"typescript": "latest",
 		"tslint": "latest",
