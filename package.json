@@ -25,9 +25,10 @@
 		"url": "https://github.com/AthenaFRC/athenad/issues"
 	},
 	"homepage": "https://github.com/AthenaFRC/athenad#readme",
+	"dependencies": {
+		"@t99/http-server": "file:../../../js/http-server-js"
+	},
 	"devDependencies": {
-		"typescript": "latest",
-		"tslint": "latest",
 		"@types/jest": "latest",
 		"del": "latest",
 		"gulp": "latest",
@@ -35,6 +36,8 @@
 		"gulp-typescript": "latest",
 		"gulp-uglify-es": "latest",
 		"jest": "latest",
-		"ts-jest": "latest"
+		"ts-jest": "latest",
+		"tslint": "latest",
+		"typescript": "latest"
 	}
 }
