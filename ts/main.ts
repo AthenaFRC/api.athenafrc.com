@@ -1,6 +1,6 @@
 /*
  * Created by Trevor Sears <trevor@trevorsears.com> (https://trevorsears.com/).
- * 10:53 PM -- June 11th, 2019.
+ * 10:23 PM -- October 28th, 2021.
  * Project: @athenafrc/athenad
  * 
  * @athenafrc/athenad - The backend daemon/server for the Athena platform.
@@ -28,4 +28,36 @@
  * @since v0.1.0
  */
 
-// export { ClassName } from "./class-location";
+import { AthenaApp } from "./athena-app";
+import { getAPIEndpoint } from "./api";
+import readline from "readline";
+import { HTTPServer, IncomingHTTPRequest, OutgoingHTTPResponse } from "@t99/http-server";
+
+export async function main(): Promise<void> {
+	
+	// Initialize our app instance.
+	const app: AthenaApp = await AthenaApp.initialize();
+	
+	// Grab the HTTP server from the app instance.
+	const server: HTTPServer = app.getHTTPServer();
+	
+	// Attach the API endpoint to the base server router.
+	server.attachRouter(await getAPIEndpoint());
+	
+	// If a given request has not been sent, but has reached the end of the router chain, send it.
+	server.attachMiddlewareAtEnd(async (request: IncomingHTTPRequest, response: OutgoingHTTPResponse): Promise<void> => {
+	    
+	    if (!response.hasBeenSent()) await response.send();
+	    
+	});
+	
+	// Kill the server if the users hits ENTER.
+	readline.createInterface({
+		input: process.stdin,
+		output: process.stdout,
+		terminal: false
+	}).on("line", app.close);
+	
+}
+
+main().catch(console.error);
