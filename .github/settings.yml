@@ -1,13 +1,13 @@
 repository:
   
   # The name of the repository. Changing this will rename the repository
-  name: athenad
+  name: api.athenafrc.com
   
   # A short description of the repository that will show up on GitHub
   description: The backend daemon/server for the Athena platform.
   
   # A URL with more information about the repository
-  # homepage: https://AthenaFRC.github.io/athenad/
+  homepage: https://api.athenafrc.com/
   
   # A comma-separated list of topics to set on the repository
   topics: >-

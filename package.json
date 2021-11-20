@@ -1,5 +1,5 @@
 {
-	"name": "@athenafrc/athenad",
+	"name": "@athenafrc/api.athenafrc.com",
 	"version": "0.1.0",
 	"description": "The backend daemon/server for the Athena platform.",
 	"main": "js/main",
@@ -10,7 +10,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/AthenaFRC/athenad.git"
+		"url": "git+https://github.com/AthenaFRC/api.athenafrc.com.git"
 	},
 	"keywords": [
 		"data-management",
@@ -22,9 +22,9 @@
 	"author": "Trevor Sears <trevor@trevorsears.com> (https://trevorsears.com/)",
 	"license": "GPL-3.0-or-later",
 	"bugs": {
-		"url": "https://github.com/AthenaFRC/athenad/issues"
+		"url": "https://github.com/AthenaFRC/api.athenafrc.com/issues"
 	},
-	"homepage": "https://github.com/AthenaFRC/athenad#readme",
+	"homepage": "https://github.com/AthenaFRC/api.athenafrc.com#readme",
 	"dependencies": {
 		"@t99/http-server": "file:../../../js/http-server-js"
 	},

@@ -1,9 +1,9 @@
 /*
  * Created by Trevor Sears <trevor@trevorsears.com> (https://trevorsears.com/).
  * 10:37 PM -- October 28th, 2021.
- * Project: @athenafrc/athenad
+ * Project: @athenafrc/api.athenafrc.com
  * 
- * @athenafrc/athenad - The backend daemon/server for the Athena platform.
+ * @athenafrc/api.athenafrc.com - The backend daemon/server for the Athena platform.
  * Copyright (C) 2021 Trevor Sears
  * 
  * This program is free software: you can redistribute it and/or modify
